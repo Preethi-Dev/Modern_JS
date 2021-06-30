@@ -1,7 +1,23 @@
-//let is modern keyword to store values in variables
-let myAge = 22;
-myAge = 25;
-//while using const keyword we can't override that value
-const myName = "preethi_dev";
-//we can log using console.log
-console.log("my age is " + myAge +" my name is "+ myName);
+//String 
+console.log('hello, world');
+
+let email = 'xyz@gmail.com';
+console.log(email);
+
+//concatenate strings
+let firstName = 'preethi';
+let lastName = 'Dev';
+let fullName = firstName + ' ' + lastName;
+console.log(fullName);
+
+//getting character
+console.log(fullName[0]);
+
+//Properties - total length
+console.log(fullName.length);
+
+//method 
+console.log(fullName.toUpperCase());
+
+let example = fullName.toLowerCase();
+console.log(example, fullName);
