@@ -1,38 +1,32 @@
-//String 
-console.log('hello, world');
+//array => []
+let names = ['keekee', 'preethi'];
+console.log(names);
 
-let email = 'xyz@gmail.com';
-console.log(email);
+//fetch value from array based on index
+console.log(names[1]);
 
-//concatenate strings
-let firstName = 'preethi';
-let lastName = 'Dev';
-let fullName = firstName + ' ' + lastName;
-console.log(fullName);
+//heterogenous => array accept different datatype
+let details = ['jhon', 9876543212 , 'USA'];
+console.log(details);
 
-//searching character by index
-console.log(fullName[0]);
+//Array methods
+//find length of array
+console.log(`length of array: ${names.length}`);
 
-//Properties - total length
-console.log(fullName.length);
+//join values in array
+console.log(`join values in array by '_' symbol: ${names.join('_')}`);
 
-//method 
-//convert to uppercase
-console.log(fullName.toUpperCase());
-//convert to lowercase
-let example = fullName.toLowerCase();
-console.log(example, fullName);
-//find index using indexOf() method
-console.log("index of 'D' character: " + fullName.indexOf('D'));
-//find index using lastIndexOf() method
-console.log("index of 'i' character: " + fullName.lastIndexOf('i'));
-//slice(start index, end index) method => cut part of string
-console.log(fullName.slice(0,7));
-//substr(start index, count of character) method => fetch part of string
-console.log(fullName.substr(8,3));
-//repace(search value, replace value) method
-console.log(fullName.replace('e', 'E'));
+//find index
+console.log(names.indexOf('keekee'));
 
-//template String or template literals
-//instead using '+' symbol for concatnate use template Literal to avoid messy code
-console.log(`my firstName is ${firstName} and my lastName is ${lastName}`);
+//concatenation in array
+console.log(names.concat('designer', 'developer'));
+
+//push and pop operation in array
+let pushed_item = names.push('twin');
+console.log(pushed_item); //print number of item in array
+console.log(names) //print array
+
+let poped_item = names.pop();
+console.log(poped_item);
+console.log(names);
