@@ -28,5 +28,5 @@ console.log(pushed_item); //print number of item in array
 console.log(names) //print array
 
 let poped_item = names.pop();
-console.log(poped_item);
-console.log(names);
+console.log(poped_item); //print popped item
+console.log(names); //print array
