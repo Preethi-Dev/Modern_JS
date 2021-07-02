@@ -23,7 +23,7 @@ console.log(names.indexOf('keekee'));
 console.log(names.concat('designer', 'developer'));
 
 //push and pop operation in array
-let pushed_item = names.push('twin');
+let pushed_item = names.push('twin', 'engineer');
 console.log(pushed_item); //print number of item in array
 console.log(names) //print array
 
