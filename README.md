@@ -1,13 +1,6 @@
 # Modern_JS
 Learn modern JS from basic concepts 
-   Array concept
-    [] => denotes array
-    - heterogenous (accept different datatype)
-    - Array methods
-        => push and pop
-        => concat
-        => join
-        => indexOf
-    - Array Property
-        => length    
+   Null and undefined
+    -null => intentionally have no value (browser set default value => 'undefined')
+    -undefined => unintentionally have no value  (browser set default value => 'null/zero')
 So, Let's get started

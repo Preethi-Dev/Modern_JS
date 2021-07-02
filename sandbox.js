@@ -1,32 +1,10 @@
-//array => []
-let names = ['keekee', 'preethi'];
-console.log(names);
+//undefined(not Intentionally)
+let age;
+//variable is not assigned to any value => then browser set default value as 'undefined'
+console.log(age, age + 3, `the age is ${age}`);
 
-//fetch value from array based on index
-console.log(names[1]);
-
-//heterogenous => array accept different datatype
-let details = ['jhon', 9876543212 , 'USA'];
-console.log(details);
-
-//Array methods
-//find length of array
-console.log(`length of array: ${names.length}`);
-
-//join values in array
-console.log(`join values in array by '_' symbol: ${names.join('_')}`);
-
-//find index
-console.log(names.indexOf('keekee'));
-
-//concatenation in array
-console.log(names.concat('designer', 'developer'));
-
-//push and pop operation in array
-let pushed_item = names.push('twin', 'engineer');
-console.log(pushed_item); //print number of item in array
-console.log(names) //print array
-
-let poped_item = names.pop();
-console.log(poped_item); //print popped item
-console.log(names); //print array
+//null
+let year = null;
+//variable is assigned to null => then browser take variable contain no value
+//in any operation => null value acts as zero
+console.log(year, year + 3, `year is ${year}`); 
