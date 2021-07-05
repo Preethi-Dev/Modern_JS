@@ -1,31 +1,21 @@
-//control flow basics
-//loop statement
-//for loop
-const names = ['jhon', 'michel', 'tom'];
-for(let i = 0; i < names.length; i++){
-    console.log(names[i]);
-}
+//Function and methods
 
-//while loop
-let count = 0;
-while(count < names.length){
-    console.log(names[count]);
-    count++;
+//function decleration(It does hoisting means we can declare function even after function call)
+function greeting(time){
+    console.log(`good ${time}`);
 }
+//invoke the function or call the function
+greeting('day');
 
-//do while loop
-let iteration = 3;
-do{
-    console.log(iteration);
-    iteration++;
-}while(iteration < names.length);
+//function expression(It doesn't support hoisting)
+//preferable way for clean coding
+const add = function(num1, num2){
+    return num1 + num2; //return the value
+};
+let result = add(10, 20); //store the value
+console.log(`addition of two number is ${result}`); //print using template string
 
-//block scope
-//let and const are block scope variable
-let score = 10;
-//conditional statement
-if(true){
-   let score = 20; //accessible within the code block and can't access outside code block
-    console.log('inside scope: ', score);
-}
-console.log('outside scope: ', score);
+const square = function(res){ 
+    console.log(res**2);
+};
+square(result);//pass the result of add function as arugument to square function
