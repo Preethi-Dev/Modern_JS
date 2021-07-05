@@ -2,8 +2,11 @@
 Learn modern JS from basic concepts 
 
    Function
+
     =>function decleration(support hoisting)
+
     =>function expression(doesn't support hoisting)
+    
     =>return value
 
     => Arrow Function
@@ -20,5 +23,5 @@ Difference between method and function
         => for function - function name();
         => for methods - it access by dot notation like name.toUpperCase()
             -name is variable and toUpperCase() is a function which is access by dot notation
-            
+
 So, Let's get started
