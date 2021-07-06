@@ -1,27 +1,18 @@
 # Modern_JS
 Learn modern JS from basic concepts 
 
-   Function
+    -CallBack Function
 
-    =>function decleration(support hoisting)
+        =>pass function as a arugument to another function
 
-    =>function expression(doesn't support hoisting)
-    
-    =>return value
+        =>when pass function as arugument - don't put bracies '()'
 
-    => Arrow Function
-        -remove function keyword
-        - use '=>'
-        - for zero or more than one parameters need paranthesis ()
-        - need to return single line of code then no need of {}
+        =>Use ForEach() method to populate each element on array
 
-Difference between method and function
+        =>in ForEach() method - we can pass two argument
 
-    - method is a function
+            - value(current element on array during each iteration)
 
-    - differ in way we access those 
-        => for function - function name();
-        => for methods - it access by dot notation like name.toUpperCase()
-            -name is variable and toUpperCase() is a function which is access by dot notation
+            - index(current index on array during iteration)
 
 So, Let's get started
