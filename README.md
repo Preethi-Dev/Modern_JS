@@ -35,4 +35,6 @@ Learn modern JS from basic concepts
 
         =>access that properties by dot(.) notation / square bracket
 
+        => access the methods by dot(.) notation
+ 
 So, Let's get started
