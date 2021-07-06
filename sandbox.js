@@ -17,3 +17,20 @@ people.forEach((person, count) => {
 });
 
 ul.innerHTML = html; //take this html template inside the ul
+
+//object literal notation
+let user = {
+    name: 'mike',
+    age: 30,
+    location: 'europe'
+};
+
+console.log(user.name); //access by dot notation
+console.log(user['age']); //access by square bracket
+
+//update the value
+user.location = 'africa';
+console.log(user.location);
+
+//find the type
+console.log(typeof user);
