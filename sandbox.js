@@ -20,9 +20,15 @@ ul.innerHTML = html; //take this html template inside the ul
 
 //object literal notation
 let user = {
-    name: 'mike',
-    age: 30,
-    location: 'europe'
+    name: 'mike', //property
+    age: 30, //property
+    location: 'europe', //property
+    login: function(){ //method
+        console.log('login successfully');
+    }, 
+    logout: function(){ //method
+        console.log('logout successfully');
+    }
 };
 
 console.log(user.name); //access by dot notation
@@ -34,3 +40,7 @@ console.log(user.location);
 
 //find the type
 console.log(typeof user);
+
+//access the methods
+user.login();
+user.logout();
