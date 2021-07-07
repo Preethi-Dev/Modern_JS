@@ -25,10 +25,10 @@ let user = {
         {title: 'Home automation', period: '3 month'},
         {title: 'Automate portal', period: '2 week'}
     ],
-    login(){ //method => we can rewrite it like login => function(){} ===> login(){}
+    login: function(){ //method 
         console.log('login successfully');
     }, 
-    logout(){ //method
+    logout(){ //method => we can rewrite it like logout => function(){} ===> logout(){}
         console.log('logout successfully');
     },
     logBlogs(){ //use normal function for 'this' keyword
