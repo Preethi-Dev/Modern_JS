@@ -1,40 +1,14 @@
 # Modern_JS
 Learn modern JS from basic concepts 
 
-    -CallBack Function
+    - this keyword
 
-        =>pass function as a arugument to another function
+        => this keyword used to point context object (current object)
 
-        =>when pass function as arugument - don't put bracies '()'
+        => if we declare it outside object, value of 'this' keyword is windows object/global object
 
-        =>Use ForEach() method to populate each element on array
+        => if we use 'this' keyword within arrow function, it doesn't change thier default window object to current object.
 
-        =>in ForEach() method - we can pass two argument
-
-            - value(current element on array during each iteration)
-
-            - index(current index on array during iteration)
-
-    -Object Literal notation
-
-        =>{} is a object literal
-
-        =>object contain properties and methods
-
-        =>like real world object contain properties and methods(things to do)
-
-        =>Example in real world
-
-            -user profile
-
-                -properties => name, email, phone number
-
-                -methods => login, logout
-
-        => properties like in KEY-VALUE pair
-
-        =>access that properties by dot(.) notation / square bracket
-
-        => access the methods by dot(.) notation
+        => use normal function for 'this' keyword
  
 So, Let's get started
