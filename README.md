@@ -10,5 +10,21 @@ Learn modern JS from basic concepts
         => if we use 'this' keyword within arrow function, it doesn't change thier default window object to current object.
 
         => use normal function for 'this' keyword
+
+    - Math Objects
+
+        => Math.round() //method
+
+        => Math.ceil()
+
+        => Math.floor()
+
+        => Math.trunc()
+
+        => Math.random()
+
+        => Math.PI //property
+
+        => Math.E
  
 So, Let's get started
