@@ -11,6 +11,20 @@ Learn modern JS from basic concepts
 
         => use normal function for 'this' keyword
 
+    - Primitive and Reference Type
+
+        => Primitive type 
+        
+            - variables (accessor of thier value) and thier values stored in stack, it's quick access and small space
+
+            - Except object, all are primitive type
+
+        => Reference Type 
+
+            - variables and pointer for thier values(object type => array, object, date and so on) stored in stack
+
+            - values(object type => array, object, date and so on) are stored in heap memory, it's bit slow and large memory space
+
     - Math Objects
 
         => Math.round() //method
