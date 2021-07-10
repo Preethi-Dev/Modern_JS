@@ -12,3 +12,4 @@ get_attr.style.border = '1px solid gray'; //adding new style
 get_attr.style.textAlign = 'center';
 get_attr.style.color = ''; //remove the style
 console.log(get_attr.style); //use style property => we can change css ppty
+
