@@ -13,3 +13,9 @@ console.log(document.getElementById('one'));
 console.log(document.getElementsByClassName('one')); //HTMLcollections => can't apply forEach
 //get reference by tagname
 console.log(document.getElementsByTagName('p'));
+
+//add html template
+const content = document.querySelector('.content');
+content.innerHTML += '<h1> hello, ninja</h1>';
+const content1 = document.querySelector('body > div > h1');
+content1.innerText = 'hello, keekee';
