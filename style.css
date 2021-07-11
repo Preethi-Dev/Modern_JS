@@ -1,0 +1,21 @@
+*{
+    background-color: rgb(211, 210, 210);
+}
+input{
+    display: block;
+    margin: 5% auto;
+    padding: 15px 30px;
+    color: gray;
+    border: 0px;
+    background-color: rgb(228, 228, 228);
+}
+input[type="submit"]{
+    background-color: rgb(113, 175, 233);
+    color: white;
+}
+
+form{
+    background-color: white;
+    margin: 5% 30%;
+    padding: 30px 20px;
+}
