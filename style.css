@@ -1,12 +1,10 @@
-*{
-    background-color: rgb(211, 210, 210);
-}
+
 input{
     display: block;
     margin: 5% auto;
     padding: 15px 30px;
     color: gray;
-    border: 0px;
+    border: none;
     background-color: rgb(228, 228, 228);
 }
 input[type="submit"]{
@@ -15,7 +13,7 @@ input[type="submit"]{
 }
 
 form{
-    background-color: white;
+    background-color: rgb(211, 210, 210);
     margin: 5% 30%;
     padding: 30px 20px;
 }
